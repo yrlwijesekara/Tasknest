@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const taskDiv = document.createElement('div');
         taskDiv.className = 'task-item';
         taskDiv.innerHTML = `
-            <button class="delete-btn" onclick="deleteTask(${task.id})" title="Delete task">×</button>
+            <button class="done-btn" onclick="deleteTask(${task.id})" title="Mark as done">Done</button>
             <div class="task-title">${escapeHtml(task.title)}</div>
             <div class="task-description">${escapeHtml(task.description)}</div>
             <div class="task-date">Created: ${task.createdAt}</div>

@@ -172,26 +172,26 @@ body {
     font-style: italic;
 }
 
-.delete-btn {
+.done-btn {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #ff4757;
+    top: 50%;
+    right: 40px;
+    background: linear-gradient(45deg, #28a745, #20c997);
     color: white;
     border: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
+    padding: 5px 10px;
+    border-radius: 15px;
     cursor: pointer;
     font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(40, 167, 69, 0.3);
 }
 
-.delete-btn:hover {
-    background: #ff3742;
+.done-btn:hover {
+    background: linear-gradient(45deg, #218838, #1ea085);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.4);
 }
 
 .empty-state {
