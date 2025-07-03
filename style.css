@@ -115,6 +115,28 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    max-height: 500px; /* Roughly 5 tasks height */
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+/* Custom scrollbar styling */
+.task-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.task-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.task-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border-radius: 10px;
+}
+
+.task-list::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(45deg, #5a6fd8, #6b42a0);
 }
 
 .task-item {
