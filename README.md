@@ -55,10 +55,10 @@ TaskNest/
 1. Open `config/database.php`
 2. Update the database credentials:
    ```php
-   private $host = "localhost";
-   private $db_name = "tasknest_db";
-   private $username = "root";
-   private $password = "your_password";
+    $host = "localhost";
+    $db_name = "tasknest_db";
+    $username = "root";
+    $password = "your_password";
    ```
 
 ### Step 4: Run the Application
